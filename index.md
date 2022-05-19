@@ -1,3 +1,7 @@
+##Bienvenidos a Econometria Financiera en Python
+
+Esta pagina esta dedicada a la creación del curso de Econometría Financiera en Python para el programa de Ingenieria Financiera del Instituto Tecnológico Metropolitano de Medellín (ITM).
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/DavRodEcon/econometriapythonitm/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
