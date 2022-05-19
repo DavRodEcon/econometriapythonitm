@@ -1,4 +1,4 @@
-##Bienvenidos a Econometria Financiera en Python
+## Bienvenidos a Econometria Financiera en Python
 
 Esta pagina esta dedicada a la creación del curso de Econometría Financiera en Python para el programa de Ingenieria Financiera del Instituto Tecnológico Metropolitano de Medellín (ITM).
 
