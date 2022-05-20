@@ -17,6 +17,58 @@ En esta pagina encontrará los siguientes temas:
 - Modelos SARIMA
 - Modelos ARCH-GARCH
 - Modelos ARIMA ARCH GARCH
+
+# Modelo Lineal (Estimador de Minimos Cuadrados Ordinarios)
+
+La siguiente sección muestra los pasos y procesos para crear un Modelo
+lineal en Python.
+
+Previamente, se debe precargar la función statsmodels.formula.afi con un nombre
+definido, para este caso como `smf`. De aqui en adelante la 
+función se conocerá como sfm.
+
+```
+import statsmodels.formula.api as smf
+```
+Para aplicar un modelo lineal, se requiere la función `smf.ols`
+
+```
+model = smf.ols(formula = 'y ~ x1 + x2', data = data)
+result = model.fit()
+result.summary()
+```
+## Extraer información del modelo
+
+Una vez creado el modelo se puede extraer la información del 
+modelo con los siguientes comandos:
+
+### Obtener los parámetros del modelo
+
+```
+b = result.params
+```
+
+### Obtener los errores estandar del modelo
+```
+se = result.bse
+```
+### Obtener t valores del modelo
+```
+tval = result.tvalues
+```
+### Obtener P valores del modelo
+```
+pval = result.pvalues
+```
+### Obtener la sumatoria al cuadrado de los residuales
+```
+sse = result.ssr
+```
+### Obtener el coeficiente de determinación (y el ajustado)
+```
+r2 = result.rsquared
+r2a = result.rsquared_adj
+```
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/DavRodEcon/econometriapythonitm/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
