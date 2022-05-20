@@ -2,6 +2,21 @@
 
 Esta pagina esta dedicada a la creación del curso de Econometría Financiera en Python para el programa de Ingenieria Financiera del Instituto Tecnológico Metropolitano de Medellín (ITM).
 
+En esta pagina encontrará los siguientes temas:
+
+- Introducción a colab
+- 
+- Modelo lineal (Estimador de Minimos Cuadrados Ordinarios)
+- Analisis de bondad de ajuste a modelos lineales
+- Variables Categoricas
+- Modelos de respuesta cualitativa (Modelos Logit, Probit y MLP)
+
+- Introducción a series de tiempo
+- Descomposición de series de tiempo
+- Modelos ARIMA 
+- Modelos SARIMA
+- Modelos ARCH-GARCH
+- Modelos ARIMA ARCH GARCH
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/DavRodEcon/econometriapythonitm/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
