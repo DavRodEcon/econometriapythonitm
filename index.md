@@ -18,6 +18,31 @@ En esta pagina encontrará los siguientes temas:
 - Modelos ARCH-GARCH
 - Modelos ARIMA ARCH GARCH
 
+# Introducción a Colab
+
+import json
+import quandl
+import pandas as pd
+import pandas_datareader as pdr
+import datetime as dt
+import numpy as np
+import scipy.stats as stats
+import statsmodels.formula.api as smf
+import statsmodels.api as sm
+import statsmodels.stats.api as sms
+import statsmodels.tsa.api as smt
+import statsmodels.tsa.seasonal as sdc
+import matplotlib.pyplot as plt
+
+
+
+from statsmodels.compat import lzip
+from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+from statsmodels.tsa.stattools import adfuller, kpss
+from statsmodels.stats.diagnostic import acorr_ljungbox
+from statsmodels.tsa.arima.model import ARIMA
+
+
 # Modelo Lineal (Estimador de Minimos Cuadrados Ordinarios)
 
 La siguiente sección muestra los pasos y procesos para crear un Modelo
