@@ -5,7 +5,7 @@ La siguiente sección muestra los pasos y procesos para crear un Modelo
 lineal en Python.
 
 Previamente, se debe precargar la función statsmodels.formula.afi con un nombre
-definido, para este caso como "smf". De aqui en adelante la 
+definido, para este caso como `smf`. De aqui en adelante la 
 función se conocerá como sfm.
 
 ```
