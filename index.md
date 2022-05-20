@@ -20,6 +20,8 @@ En esta pagina encontrará los siguientes temas:
 
 # Introducción a Colab
 
+
+```markdown
 import json
 import quandl
 import pandas as pd
@@ -41,6 +43,7 @@ from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 from statsmodels.tsa.stattools import adfuller, kpss
 from statsmodels.stats.diagnostic import acorr_ljungbox
 from statsmodels.tsa.arima.model import ARIMA
+```
 
 
 # Modelo Lineal (Estimador de Minimos Cuadrados Ordinarios)
