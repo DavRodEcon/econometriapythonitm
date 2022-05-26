@@ -20,6 +20,7 @@ En esta pagina encontrará los siguientes temas:
 
 # Introducción a Colab
 
+Para trabajar en Colab y usar las herramientas de Python, se requiere en primera instancia crear o tener una cuenta de google activa. Para ingresar a Colaboratory se requiere acceder al siguiente link: <https://colab.research.google.com> 
 
 ```markdown
 import json
