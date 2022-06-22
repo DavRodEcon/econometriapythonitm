@@ -1,27 +1,29 @@
 
+
 # Modelo Lineal (Estimador de Minimos Cuadrados Ordinarios)
 
 La siguiente sección muestra los pasos y procesos para crear un Modelo
 lineal en Python.
 
-Previamente, se debe precargar la función statsmodels.formula.afi con un nombre
-definido, para este caso como `smf`. De aqui en adelante la 
-función se conocerá como sfm.
+Previamente, se debe precargar la función `statsmodels.formula.afi` con un nombre
+definido, para este caso como `smf`. De aqui en adelante la función se conocerá como `sfm.función`. A continuación se muestra como opera la función:
 
 ```
 import statsmodels.formula.api as smf
 ```
-Para aplicar un modelo lineal, se requiere la función smf.ols 
+Se puede apreciar que se llama la función `statsmodels.formula.api` fue renombrada, y para usar un modelo lineal se requiere la función `smf.ols`, como se muestra a continuación: 
 
 ```
-model = smf.ols(formula = 'y ~ x1 + x2', data = data)
+model = smf.ols(formula = 'y ~ x1 + x2', data = datos)
 result = model.fit()
 result.summary()
 ```
+
+Donde `model` es un objeto que identifica el resultado de la función, `smf.ols` es la función que crea un modelo linal, `formula =` es la función interna que solicita una función lineal en el orden de la variable endogena "Y" y despues involucrar las variables exogenas "X", `data` es la función interna que solicita el nombre del objeto de los datos previamente cargados y que el modelo pueda operar.
+
 ## Extraer información del modelo
 
-Una vez creado el modelo se puede extraer la información del 
-modelo con los siguientes comandos:
+Una vez creado el modelo se puede extraer la información del modelo con los siguientes comandos:
 
 ### Obtener los parámetros del modelo
 
@@ -50,18 +52,3 @@ sse = result.ssr
 r2 = result.rsquared
 r2a = result.rsquared_adj
 ```
-
-
-
-## Related
-
-Here are some related projects
-
-[Awesome README](https://github.com/matiassingers/awesome-readme)
-
-
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherinempeterson.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
-
